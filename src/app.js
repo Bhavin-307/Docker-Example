@@ -1,9 +1,9 @@
-import express from "express";
+import express from 'express';
 
 const app = express();
 
-app.get("/", (req, res) => {
-    res.status(200).send("Hello From Bhavin")
-})
+app.get('/', (req, res) => {
+  res.status(200).send('Hello From Bhavin');
+});
 
 export default app;
